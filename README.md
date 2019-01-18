@@ -19,7 +19,7 @@ There are three node types:
 Usage example:
 
     // Create flight JSON object
-    JsonNode* flight =  new  JsonNode("Flight", Object);
+    JsonNode* flight = new JsonNode("Flight", Object);
     
 	// Add data-value pairs to flight object
     flight->AddDataElement("DepartureAirport", "JFK");
@@ -36,7 +36,7 @@ Usage example:
     flight->AddNode(flightStartTime);
     
     // Serialize flight object - return JSON string
-    flight ->Serialize();
+    flight->Serialize();
 
 Above code will generate following string:
 
